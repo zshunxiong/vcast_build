@@ -1,0 +1,51 @@
+.dropdown-factory{
+	position: relative;
+	cursor: pointer;
+}
+
+.factory-toggle{
+	min-width: 88.08px;
+	height: 40px;
+}
+
+.factory-toggle a{
+	line-height: 30px;
+	font-size: 14px;
+	color: #9c9eb0 !important;
+	cursor: pointer;
+}
+
+.factory-menu{
+	background-color: #fff;
+	color: #999; 
+	/* height: 120px; */
+	width: 162px;
+	position: absolute; 
+	top: 50px; 
+	left: -40px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom: none;
+	font-size: 14px;
+}
+
+.factory-item{
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.machine-menu{
+	/* height: 40px; */
+	width: 100%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.machine-menu > div{
+	height: 34px;
+}
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
